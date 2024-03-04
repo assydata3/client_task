@@ -37,4 +37,4 @@ class mailer:
         print('Mail Sent')
 
 # mailer.sent_mail_1('tung_phung@minebea-as.com','test mail','test thu xem phat the nao')
-mailer.sent_mail_multi('tung_phung@minebea-as.com','itechcolor1984@gmail.com','test','test xem thu the nao')
+# mailer.sent_mail_multi('tung_phung@minebea-as.com','itechcolor1984@gmail.com','test','test xem thu the nao')

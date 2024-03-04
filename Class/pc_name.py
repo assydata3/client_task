@@ -1,13 +1,13 @@
 import socket
 
 pc_dist = {
-    "10.169.211.74" : "main_pc"
+    "10.169.211.74": "main_pc"
 }
 
 pc_ip = socket.gethostbyname(socket.gethostname())
-try :
+try:
      pc_name = pc_dist[pc_ip]
-except :
+except:
     pc_name = 'unknow'
 
 
